@@ -1,0 +1,163 @@
+html{
+    box-sizing:border-box;
+    font-family: Helvetica, Arial,  sans-serif;
+    margin: 0;
+   background-color: #e3afaa;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+padding:1rem;
+color: #fff;
+background-color: #f17676;
+border-bottom: 3px solid#fff;
+}
+
+header h2{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ header img{
+    height: auto;
+    width: 100px;
+}
+
+.Flex-container-header{
+    display:flex;
+    flex-flow:row wrap;
+    gap: 1rem;
+}
+
+#main, #sidebar, #nav{
+    padding:1rem;
+}
+
+#main, #sidebar{
+    background-color:#fff4eb;
+}
+
+.Flex-container{
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.flex-item{
+    flex:0 0 13%;
+    border: 1px solid;
+}
+
+nav{
+    background-color: #130701;
+}
+
+nav ul{
+list-style:none;
+padding:0;
+}
+
+nav ul a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+nav ul a:visited{
+    color:azure;
+}
+nav ul a:hover{
+    background-color:#f85e5e;
+    border-bottom: 2px solid #fff;
+}
+nav ul a:active{
+    color:#e93838;
+}
+#main{
+  flex:3 0 0;  
+}
+#sidebar{
+    flex:1 0 0;
+}
+
+main h1{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+p{
+    text-align: justify;
+}
+
+li img{
+    height: auto;
+    width: 51rem;
+}
+.flex-container-column{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.7rem;
+}
+
+.flex-item-c{
+flex:1 0 0;
+}
+
+#sidebar ul{
+    list-style:square;
+}
+#sidebar a:link{
+text-decoration: none;
+color: #000;;
+}
+
+#sidebar a:visited{
+color: #240529;
+}
+
+#sidebar a:hover{
+    text-decoration: underline;
+}
+
+#sidebar a:active{
+color: #e93838;
+}
+
+footer label,input,button{
+    display: block;
+    margin: 1em 0;
+}
+
+footer{
+    padding:1rem;
+    background-color: #130701;
+    color:#fff;
+}
+
+footer input, textarea{
+    padding: 0.5rem;
+    width: 40%;
+}
+
+button{
+    background-color: #f17676;
+    color: #fff;
+    padding:0.5rem 2rem;
+    border-radius: 5px;
+    font-weight:bold;
+}
+ button:hover{
+background-color: #e93838;
+
+ }
+
+
